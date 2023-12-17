@@ -1,0 +1,21 @@
+body{
+    color-scheme: dark;
+    background-color: rgb(30, 30, 30);
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titleMain{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#containerImages{
+    width: 90vw;
+    height: 100vh;
+    display: grid;
+    gap: 20px;      
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows: max-content;
+}
