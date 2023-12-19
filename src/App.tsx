@@ -4,7 +4,6 @@ import { imgData } from "./interfaces/imgData"
 import { Imgplace } from './components/Imgplace'
 import FilterPhoto from './components/FilterPhoto'
 import {ImagePreview} from "./components/ImagePreview"
-import {log} from "console"
 
 export const App = () => {
     let firstTime = true
