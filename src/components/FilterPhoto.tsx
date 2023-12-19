@@ -1,8 +1,5 @@
-import React, { useEffect,useState } from 'react'
 
 const FilterPhoto = () => {
-
-const [categorias,setCategorias]:[string[],any] = useState([]);
 
   return (
     <div id='filterContainer'>

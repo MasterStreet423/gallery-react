@@ -1,0 +1,38 @@
+#imagePreviewContainer{
+	 position: fixed;
+	 display: none;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 background-color: rgb(20,20,20);
+	 height: 80vh;
+	 width: 70vw;
+
+	 border: 2px solid white;
+	 border-radius: 20px;
+}
+#previewTitle{
+	 bottom: 0;
+	 text-align: center;
+	 width: 100%; 
+	 position: absolute;
+	 color: beige;
+}
+
+
+#closeButton{
+	 position: absolute;
+	 border-radius: 30px;
+	 padding: 15px;
+	 background-color: red;
+	 color: black;
+	 border: solid 1px white;
+	 right:0;
+	 top: 0;
+}
+#imagePreview{
+	 position: absolute;
+	 flex-grow: 1;
+	 top: 5%;
+	 height: 80%;
+}
